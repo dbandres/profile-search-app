@@ -1,0 +1,43 @@
+
+.profile_sec{
+    background-color: rgb(2, 2, 32);
+    color: white;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    text-align: start;
+    justify-content: center;
+}
+
+.profile{
+    min-width: 450px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: .5rem;
+    margin-bottom: 1rem;
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profile p{color: white;}
+.profile h3{color: white;}
+
+.profile img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+}
+
+.icon{
+    color: white;
+    cursor: pointer;
+}
+.icon:hover{
+    color: red;
+}
+
+.input_search{
+    width: 98.4%;
+}
